@@ -1,0 +1,25 @@
+{
+  "name": "aqi-sensor",
+  "version": "0.0.1",
+  "description": "",
+  "main": "sensor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jon-Bernal/aqi-sensor.git"
+  },
+  "author": "Jon Bernal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jon-Bernal/aqi-sensor/issues"
+  },
+  "homepage": "https://github.com/Jon-Bernal/aqi-sensor#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "serialport": "^12.0.0",
+    "socket.io": "^4.7.4"
+  }
+}
